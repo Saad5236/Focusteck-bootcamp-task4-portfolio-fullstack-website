@@ -1,0 +1,33 @@
+GET http://localhost:3000/api/educations
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsInVzZXJSb2xlIjoidXNlciIsInVzZXJFbWFpbCI6InNAcy5zIiwiaWF0IjoxNjk1ODUwNTEzLCJleHAiOjE2OTU4NTQxMTN9.Nag8WSJ59Y-EjAgzq50UBLdm_m-xLXTo-9624GySqTs
+
+###
+
+POST http://localhost:3000/api/educations
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjM3NDczMCwidXNlclJvbGUiOiJ1c2VyIiwidXNlckVtYWlsIjoidEB0LnR0IiwiaWF0IjoxNjk2MTUyNjYzLCJleHAiOjE2OTYxNTYyNjN9.pWOlzYDAhgMKlrsV-XGxDWStaFFrwK3oNqakjBbLSKw
+
+{
+    "userEducationDegree": "choke",
+    "userEducationInstitute": "vala",
+    "userEducationProgram": "ugjkj",
+    "userEducationYears": "3"
+  }
+
+###
+
+PUT http://localhost:3000/api/educations/751915
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjY0MTg2NSwidXNlclJvbGUiOiJ1c2VyIiwidXNlckVtYWlsIjoickByLnJyIiwiaWF0IjoxNjk2MTcyNzMwLCJleHAiOjE2OTYxNzYzMzB9.WYwU9arBHn9X_MMSVAeUWpp2VKJLZWL0JrqtJDGgnF0
+
+{
+    "userEducationDegree": "lalu lal",
+    "userEducationInstitute": "blue vala",
+    "userEducationProgram": "huawei",
+    "userEducationYears": "3"
+  }
+
+###
+
+DELETE http://localhost:3000/api/educations/331667
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMzNTk1MiwidXNlclJvbGUiOiJ1c2VyIiwidXNlckVtYWlsIjoicUBxLnFxIiwiaWF0IjoxNjk2MTcyODc5LCJleHAiOjE2OTYxNzY0Nzl9.zgu4v8f8dJACLUpMBBn9QsbC8NIIXKKaDausdy6E1fg
